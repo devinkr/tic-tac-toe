@@ -25,7 +25,7 @@ function init() {
 	// Hide modal and show game screen
 	welcomeModalEL.classList.add('hide');
 	currentPlayer = 1;
-	playerEl.innerText = 'Player 1';
+	playerEl.innerText = currentPlayer;
 	player1Boxes.length = 0;
 	player2Boxes.length = 0;
 	boxes.forEach(function (box) {
@@ -44,12 +44,12 @@ function changeGrid(element) {
 			player1Boxes.push(boxId);
 			box.style.backgroundColor = PLAYER1_MARK;
 			currentPlayer = 2;
-			playerEl.innerText = 'Player 2';
+			playerEl.innerText = currentPlayer;
 		} else {
 			player2Boxes.push(boxId);
 			box.style.backgroundColor = PLAYER2_MARK;
 			currentPlayer = 1;
-			playerEl.innerText = 'Player 1';
+			playerEl.innerText = currentPlayer;
 		}
 	}
 }

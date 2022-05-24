@@ -5,19 +5,27 @@
 
 h1 {
 	font-size: 2em;
+	margin-left: 20px;
+	font-family: 'Indie Flower', cursive;
 }
 .container {
 	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 20px;
 	height: 100vh;
 	display: flex;
+	justify-content: space-between;
 }
 
 .row {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+main {
+	align-self: center;
 }
 
 .box {
@@ -27,6 +35,15 @@ h1 {
 	border: 3px solid black;
 }
 
+.reset {
+	height: 50px;
+	width: 100px;
+	align-self: center;
+	background-color: brown;
+	color: white;
+	border-radius: 10px;
+	margin-right: 20px;
+}
 /* Modal Styles */
 
 .hide {
