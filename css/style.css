@@ -3,3 +3,26 @@
 	box-sizing: border-box;
 }
 
+h1 {
+	font-size: 2em;
+}
+.container {
+	max-width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: red;
+	height: 100vh;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	background-color: lightgray;
+	border: 3px solid black;
+}
