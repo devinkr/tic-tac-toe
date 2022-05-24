@@ -1,0 +1,10 @@
+Show begin game modal with game play button
+  If user clicks play, init game
+    Hide the intro modal and show game screen
+    Start turn with player 1
+    Add event listeners to grid boxes
+    If user clicks a grid box add an X or an O to that box
+      IF box already has an X or O show message
+    If user clicks reset
+      reset game (init game)
+    
