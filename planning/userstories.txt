@@ -1,0 +1,15 @@
+MVP
+As a user I want to be able to click on a grid and have an X or O appear.
+As a user I shouldn't be able to click a square already in use.
+As a user I want to see whose turn it is.
+As a user I want to have a reset button to play again.
+
+Stretch Goals
+
+Bronze
+As a user I want a message to appear if a player clicks an invalid square
+
+
+Silver
+
+Gold
