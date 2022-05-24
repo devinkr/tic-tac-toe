@@ -8,12 +8,22 @@ h1 {
 	margin-left: 20px;
 	font-family: 'Indie Flower', cursive;
 }
+
+.score-container {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+body {
+	height: 100vh;
+}
 .container {
 	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 20px;
-	height: 100vh;
 	display: flex;
 	justify-content: space-between;
 }
